@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  overscroll-behavior: none;
+  justify-content: center;
+  align-items:center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #EAEEE5;
+  font-family: "podium-sharp-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 400;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.folder {
+  width: 124px;
+}
+
+.folder:active {
+  scale: 95%;
+}
+
+.folder-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid #EAEEE5;
+}
+
+.folder-container:hover {
+  background-color: #D6DAD2;
+  border-radius: 6px;
+  border: 1px solid #2B2D2A;
+  border-style: dashed;
+  cursor: pointer;
+}
+
+
+#app {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
