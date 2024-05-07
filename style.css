@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items:center;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100svh;
   background-color: #EAEEE5;
   font-family: "podium-sharp-variable", sans-serif;
   font-variation-settings: "wdth" 100, "wght" 400;
