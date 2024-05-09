@@ -17,7 +17,7 @@ body {
   align-items:center;
   width: 100vw;
   height: 100svh;
-  background-color: #e2e5dd;
+  background-color: #EAEEE5;
   font-family: "podium-sharp-variable", sans-serif;
   font-variation-settings: "wdth" 100, "wght" 400;
 }
@@ -76,5 +76,4 @@ h1 {
   position: relative;
   width: 100vw;
   height: 100svh;
-  background-color: #EAEEE5;
 }
