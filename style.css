@@ -52,10 +52,25 @@ h1 {
   cursor: pointer;
 }
 
+.noise-bg {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  background-image: url(/noise.png);
+  pointer-events: none;
+  background-size: 10%;
+  opacity: 50%;
+}
+
 
 #app {
   padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
